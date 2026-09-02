@@ -277,7 +277,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Click ``` + Add new widget ```.
    
-      • Select ``` Indicator ``` to display the LED status based on the light intensity measured by the LDR.
+      • Select ``` Indicator ``` to display the LED status based on the light intensity.
    
       • Please set the variables that you want to use on the widget.
    
@@ -297,7 +297,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Click ``` + Add new widget ```.
    
-      • Select ``` Line Chart ``` for data visualization.
+      • Select ``` Line Chart ``` to visualize distance data.
    
       • Please set the variables that you want to use on the widget.
    
@@ -312,8 +312,147 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
 8. Creating HTML Canvas widget :
 
    <table><tr><td width="810">
+
+      • Make sure you are in the ``` Dashboards ``` menu.
    
-      Coming Soon...
+      • Click ``` + Add new widget ```.
+   
+      • Select ``` HTML Canvas ``` to control the Fan ON/OFF.
+   
+      • In the ``` Code Editor ``` section, please set it up as follows :<br><br>
+
+      <table>
+      <tr>
+         <th align="left">HTML Code</th>
+      <tr>
+      <tr><td width="810">
+               
+      ```html
+      
+      <div class="ldr-widget">
+          <div class="ldr-circle">
+              <span id="ldr-value">-</span>
+          </div>
+      </div>
+         
+      ```
+      </td></tr>
+      </table><br>
+
+      <table>
+      <tr>
+         <th align="left">CSS Code</th>
+      <tr>
+      <tr><td width="810">
+               
+      ```css
+      
+      html,
+      body {
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+      }
+      
+      .ldr-widget {
+          width: 100%;
+          height: 100%;
+          min-height: 200px;
+          background: #ffffff;
+          position: relative;
+          font-family: Arial, sans-serif;
+      }
+      
+      .ldr-title {
+          position: absolute;
+          top: 12px;
+          left: 15px;
+          font-size: 16px;
+          font-weight: normal;
+          color: #5e5e5e;
+      }
+      
+      .ldr-circle {
+          position: absolute;
+          width: 160px;
+          height: 160px;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          border-radius: 50%;
+          background-color: #ff9800;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #ffffff;
+      }
+      
+      #ldr-value {
+          font-size: 28px;
+          font-weight: bold;
+          line-height: 1;
+      }
+         
+      ```
+      </td></tr>
+      </table><br>
+
+      <table>
+      <tr>
+         <th align="left">JavaScript Code</th>
+      <tr>
+      <tr><td width="810">
+               
+      ```javascript
+      
+      const TOKEN = "UBIDOTS_TOKEN";
+      const VARIABLE_ID = "VARIABLE_ID";
+   
+      function getLDRValue() {
+      
+          const url =
+              "https://industrial.api.ubidots.com/api/v1.6/variables/" +
+              VARIABLE_ID +
+              "/values?page_size=1";
+      
+          fetch(url, {
+              method: "GET",
+              headers: {
+                  "X-Auth-Token": TOKEN,
+                  "Content-Type": "application/json"
+              }
+          })
+              .then(response => response.json())
+              .then(data => {
+      
+                  if (data.results && data.results.length > 0) {
+      
+                      const value = Number(data.results[0].value);
+      
+                      document.getElementById("ldr-value").textContent =
+                          value.toFixed(1);
+                  }
+      
+              })
+              .catch(error => {
+                  console.error("Error mengambil data LDR:", error);
+              });
+      }
+      
+      getLDRValue();
+      setInterval(getLDRValue, 5000);
+         
+      ```
+      </td></tr>
+      </table><br>
+   
+      • Customize the style, size, and other details as needed.
+   
+      • Click ``` SAVE ``` to add the HTML Canvas Widget to the dashboard.
+   
+      • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> if so, then click ``` SAVE ```.
 
    </td></tr></table><br>
 
