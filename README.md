@@ -179,7 +179,181 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
 <br><br>
 
 ## Ubidots Setup
-Coming Soon...
+1. Getting started with Ubidots :
+
+   <table><tr><td width="810">
+   
+      • Please <a href="https://industrial.ubidots.com/accounts/signin/">Log in</a> to access the ``` Ubidots ``` service.
+      
+      • If you don't have a ``` Ubidots ``` account yet, please create one.
+
+   </td></tr></table><br>
+
+2. Creating dashboards : 
+
+   <table><tr><td width="810">
+   
+      • In the ``` Data ``` section -> select ``` Dashboards ``` menu.
+   
+      • Delete the Ubidots built-in demo dashboard before creating a new dashboard.
+   
+      • Click ``` Add new Dashboard ```.
+   
+      • ``` Name ```, ``` Tags ```, ``` Default time range ``` -> customize it to your needs.
+
+      • ``` Dynamic Dashboard ``` -> change it to ``` Dynamic (Single Device) ```.
+
+      • ``` Default Device ``` -> select the device you want to display.
+
+      • Leave the other settings alone -> then click ``` SAVE ```.
+
+   </td></tr></table><br>
+
+3. Creating Text widget :
+
+   <table><tr><td width="810">
+   
+      • Make sure you are in the ``` Dashboards ``` menu.
+   
+      • Click ``` + Add new widget ```.
+   
+      • Select ``` Text ``` to create a label.
+   
+      • Give the label a name, for example: ``` MONITORING ``` / ``` CONTROL ```.
+   
+      • Customize the style, size, and other details as needed.
+   
+      • Click ``` Save ``` to add the Text Widget to the dashboard.
+   
+      • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> if so, then click ``` SAVE ```.
+
+   </td></tr></table><br>
+
+4. Creating Thermometer widget :
+
+   <table><tr><td width="810">
+   
+      • Make sure you are in the ``` Dashboards ``` menu.
+   
+      • Click ``` + Add new widget ```.
+   
+      • Select ``` Thermometer ``` for room temperature.
+   
+      • Please set the variables that you want to use on the widget.
+   
+      • Customize the style, size, and other details as needed.
+   
+      • Click ``` Save ``` to add the Thermometer Widget to the dashboard.
+   
+      • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> if so, then click ``` SAVE ```.
+
+   </td></tr></table><br>
+
+5. Creating Gauge widget :
+
+   <table><tr><td width="810">
+   
+      • Make sure you are in the ``` Dashboards ``` menu.
+   
+      • Click ``` + Add new widget ```.
+   
+      • Select ``` Gauge ``` for room humidity.
+   
+      • Please set the variables that you want to use on the widget.
+   
+      • Customize the style, size, and other details as needed.
+   
+      • Click ``` Save ``` to add the Gauge Widget to the dashboard.
+   
+      • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> if so, then click ``` SAVE ```.
+
+   </td></tr></table><br>
+
+6. Creating Indicator widget :
+
+   <table><tr><td width="810">
+   
+      • Make sure you are in the ``` Dashboards ``` menu.
+   
+      • Click ``` + Add new widget ```.
+   
+      • Select ``` Indicator ``` to know the ON/OFF status of the LED based on the light intensity value read by the LDR.
+   
+      • Please set the variables that you want to use on the widget.
+   
+      • Customize the style, size, and other details as needed.
+   
+      • Click ``` Save ``` to add the Indicator Widget to the dashboard.
+   
+      • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> if so, then click ``` SAVE ```.
+
+   </td></tr></table><br>
+
+7. Creating Line Chart widget :
+
+   <table><tr><td width="810">
+   
+      • Make sure you are in the ``` Dashboards ``` menu.
+   
+      • Click ``` + Add new widget ```.
+   
+      • Select ``` Line Chart ``` for data visualization.
+   
+      • Please set the variables that you want to use on the widget.
+   
+      • Customize the style, size, and other details as needed.
+   
+      • Click ``` Save ``` to add the Line Chart Widget to the dashboard.
+   
+      • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> if so, then click ``` SAVE ```.
+
+   </td></tr></table><br>
+
+9. Creating HTML Canvas widget :
+
+   <table><tr><td width="810">
+   
+      Coming Soon...
+
+   </td></tr></table><br>
+
+9. Creating Switch widget :
+
+   <table><tr><td width="810">
+   
+      • Make sure you are in the ``` Dashboards ``` menu.
+   
+      • Click ``` + Add new widget ```.
+   
+      • Select ``` Switch ``` to control the Fan ON/OFF.
+   
+      • Please set the variables that you want to use on the widget.
+   
+      • Customize the style, size, and other details as needed.
+   
+      • Click ``` Save ``` to add the Switch Widget to the dashboard.
+   
+      • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> if so, then click ``` SAVE ```.
+
+   </td></tr></table><br>
+
+10. Firmware configuration : 
+
+    <table><tr><td width="810">
+   
+      • Click the ``` User ``` section in the bottom left corner -> then select ``` API Credentials ```.
+   
+      • Copy the ``` Default token ``` -> paste it into the firmware code. An example is as follows:
+
+      <table><tr><td width="780">
+   
+      ```ino
+      const char* token = "BBUS-aRZvtYRMM7IWbrKFcICR30YYP7dh5Q"; // define ubidots token
+      ```
+
+      </td></tr></table>
+
+    </td></tr></table>
 
 <br><br>
 
