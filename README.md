@@ -223,7 +223,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Customize the style, size, and other details as needed.
    
-      • Click ``` Save ``` to add the Text Widget to the dashboard.
+      • Click ``` SAVE ``` to add the Text Widget to the dashboard.
    
       • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> if so, then click ``` SAVE ```.
 
@@ -243,7 +243,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Customize the style, size, and other details as needed.
    
-      • Click ``` Save ``` to add the Thermometer Widget to the dashboard.
+      • Click ``` SAVE ``` to add the Thermometer Widget to the dashboard.
    
       • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> if so, then click ``` SAVE ```.
 
@@ -263,7 +263,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Customize the style, size, and other details as needed.
    
-      • Click ``` Save ``` to add the Gauge Widget to the dashboard.
+      • Click ``` SAVE ``` to add the Gauge Widget to the dashboard.
    
       • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> if so, then click ``` SAVE ```.
 
@@ -277,13 +277,13 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Click ``` + Add new widget ```.
    
-      • Select ``` Indicator ``` to know the ON/OFF status of the LED based on the light intensity value read by the LDR.
+      • Select ``` Indicator ``` to display the LED status based on the light intensity measured by the LDR.
    
       • Please set the variables that you want to use on the widget.
    
       • Customize the style, size, and other details as needed.
    
-      • Click ``` Save ``` to add the Indicator Widget to the dashboard.
+      • Click ``` SAVE ``` to add the Indicator Widget to the dashboard.
    
       • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> if so, then click ``` SAVE ```.
 
@@ -303,13 +303,13 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Customize the style, size, and other details as needed.
    
-      • Click ``` Save ``` to add the Line Chart Widget to the dashboard.
+      • Click ``` SAVE ``` to add the Line Chart Widget to the dashboard.
    
       • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> if so, then click ``` SAVE ```.
 
    </td></tr></table><br>
 
-9. Creating HTML Canvas widget :
+8. Creating HTML Canvas widget :
 
    <table><tr><td width="810">
    
@@ -331,7 +331,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Customize the style, size, and other details as needed.
    
-      • Click ``` Save ``` to add the Switch Widget to the dashboard.
+      • Click ``` SAVE ``` to add the Switch Widget to the dashboard.
    
       • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> if so, then click ``` SAVE ```.
 
