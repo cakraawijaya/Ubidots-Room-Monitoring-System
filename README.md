@@ -536,8 +536,8 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
 <th width="840" colspan="4">Switch (FAN)</th>
 </tr>
 <tr>
-<td width="420" colspan="2" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Device.jpg" alt="device"></td>
 <td width="420" colspan="2" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Serial Monitor.jpg" alt="serial-monitor"></td>
+<td width="420" colspan="2" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Device.jpg" alt="device"></td>
 </tr>
 <tr>
 <th width="420" colspan="2">Switch (FAN): ON</th>
