@@ -317,7 +317,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Click ``` + Add new widget ```.
    
-      • Select ``` HTML Canvas ``` to control the Fan ON/OFF.
+      • Select ``` HTML Canvas ``` to create a custom visualization that displays the light intensity.
    
       • In the ``` Code Editor ``` section, please set it up as follows :<br><br>
 
