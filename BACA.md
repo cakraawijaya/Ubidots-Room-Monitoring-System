@@ -513,39 +513,34 @@ Sistem pemantauan dan pengendalian ruangan cerdas — memantau suhu, kelembapan,
 
 <table>
 <tr>
-<th width="840" colspan="4">Perangkat</th>
+<th width="840" colspan="8">Perangkat</th>
 </tr>
 <tr>
-<th width="420" colspan="2">Sensor DHT11</th>
-<th width="420" colspan="2">Sensor LDR</th>
+<th width="210" colspan="2">Sensor DHT11</th>
+<th width="210" colspan="2">Sensor LDR</th>
+<th width="210" colspan="2">Sensor HC-SR04</th>
+<th width="210" colspan="2">Kipas</th>
 </tr>
 <tr>
-<td width="210" align="center"><img src="Assets/Documentation/Experiment/DHT11 Sensor/Device.jpg" alt="device"></td>
-<td width="210" align="center"><img src="Assets/Documentation/Experiment/DHT11 Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
-<td width="210" align="center"><img src="Assets/Documentation/Experiment/LDR Sensor/Device.jpg" alt="device"></td>
-<td width="210" align="center"><img src="Assets/Documentation/Experiment/LDR Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/DHT11 Sensor/Device.jpg" alt="device"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/DHT11 Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/LDR Sensor/Device.jpg" alt="device"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/LDR Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/HC-SR04 Sensor/Device.jpg" alt="device"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/HC-SR04 Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Device.jpg" alt="device"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Serial Monitor.jpg" alt="serial-monitor"></td>
 </tr>
 <tr>
-<th width="840" colspan="4">Sensor HC-SR04</th>
+<th width="840" colspan="8">Sakelar (KIPAS)</th>
 </tr>
 <tr>
-<td width="420" colspan="2" align="center"><img src="Assets/Documentation/Experiment/HC-SR04 Sensor/Device.jpg" alt="device"></td>
-<td width="420" colspan="2" align="center"><img src="Assets/Documentation/Experiment/HC-SR04 Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
+<th width="420" colspan="4">Nyala</th>
+<th width="420" colspan="4">Mati</th>
 </tr>
 <tr>
-<th width="840" colspan="4">Sakelar (KIPAS)</th>
-</tr>
-<tr>
-<td width="420" colspan="2" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Serial Monitor.jpg" alt="serial-monitor"></td>
-<td width="420" colspan="2" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Device.jpg" alt="device"></td>
-</tr>
-<tr>
-<th width="420" colspan="2">Sakelar (KIPAS): NYALA</th>
-<th width="420" colspan="2">Sakelar (KIPAS): MATI</th>
-</tr>
-<tr>
-<td colspan="2" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Switch On.jpg" alt="switch-on"></td>
-<td colspan="2" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Switch Off.jpg" alt="switch-off"></td>
+<td colspan="4" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Switch On.jpg" alt="switch-on"></td>
+<td colspan="4" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Switch Off.jpg" alt="switch-off"></td>
 </tr>
 </table>
 <table>
