@@ -239,7 +239,7 @@ Sistem pemantauan dan pengendalian ruangan cerdas — memantau suhu, kelembapan,
    
       • Pilih ``` Thermometer ``` untuk suhu ruangan.
    
-      • Silakan atur variabel-variabel yang ingin Anda gunakan pada widget tersebut.
+      • Silakan atur variabel yang ingin Anda gunakan pada widget tersebut.
    
       • Sesuaikan gaya, ukuran, dan detail lainnya sesuai kebutuhan.
    
@@ -259,7 +259,7 @@ Sistem pemantauan dan pengendalian ruangan cerdas — memantau suhu, kelembapan,
    
       • Pilih ``` Gauge ``` untuk kelembapan ruangan.
    
-      • Silakan atur variabel-variabel yang ingin Anda gunakan pada widget tersebut.
+      • Silakan atur variabel yang ingin Anda gunakan pada widget tersebut.
    
       • Sesuaikan gaya, ukuran, dan detail lainnya sesuai kebutuhan.
    
@@ -279,7 +279,7 @@ Sistem pemantauan dan pengendalian ruangan cerdas — memantau suhu, kelembapan,
    
       • Pilih ``` Indicator ``` untuk menampilkan status LED berdasarkan intensitas cahaya.
    
-      • Silakan atur variabel-variabel yang ingin Anda gunakan pada widget tersebut.
+      • Silakan atur variabel yang ingin Anda gunakan pada widget tersebut.
    
       • Sesuaikan gaya, ukuran, dan detail lainnya sesuai kebutuhan.
    
@@ -299,7 +299,7 @@ Sistem pemantauan dan pengendalian ruangan cerdas — memantau suhu, kelembapan,
    
       • Pilih ``` Line Chart ``` untuk memvisualisasikan data jarak.
    
-      • Silakan atur variabel-variabel yang ingin Anda gunakan pada widget tersebut.
+      • Silakan atur variabel yang ingin Anda gunakan pada widget tersebut.
    
       • Sesuaikan gaya, ukuran, dan detail lainnya sesuai kebutuhan.
    
@@ -466,7 +466,7 @@ Sistem pemantauan dan pengendalian ruangan cerdas — memantau suhu, kelembapan,
    
       • Pilih ``` Switch ``` untuk mengontrol NYALA/MATI Kipas.
    
-      • Silakan atur variabel-variabel yang ingin Anda gunakan pada widget tersebut.
+      • Silakan atur variabel yang ingin Anda gunakan pada widget tersebut.
    
       • Sesuaikan gaya, ukuran, dan detail lainnya sesuai kebutuhan.
    
