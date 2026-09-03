@@ -185,7 +185,7 @@ Sistem pemantauan dan pengendalian ruangan cerdas — memantau suhu, kelembapan,
    
       • Silakan <a href="https://industrial.ubidots.com/accounts/signin/">Masuk</a> agar dapat mengakses layanan ``` Ubidots ```.
       
-      • Jika anda belum memiliki akun ``` Ubidots ``` silakan buat dulu.
+      • Jika anda belum memiliki akun ``` Ubidots ```, silakan buat dulu.
 
    </td></tr></table><br>
 
