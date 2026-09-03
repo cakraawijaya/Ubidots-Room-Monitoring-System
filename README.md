@@ -513,39 +513,34 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
 
 <table>
 <tr>
-<th width="840" colspan="4">Device</th>
+<th width="840" colspan="8">Device</th>
 </tr>
 <tr>
-<th width="420" colspan="2">DHT11 Sensor</th>
-<th width="420" colspan="2">LDR Sensor</th>
+<th width="210" colspan="2">DHT11 Sensor</th>
+<th width="210" colspan="2">LDR Sensor</th>
+<th width="210" colspan="2">HC-SR04 Sensor</th>
+<th width="210" colspan="2">Fan</th>
 </tr>
 <tr>
-<td width="210" align="center"><img src="Assets/Documentation/Experiment/DHT11 Sensor/Device.jpg" alt="device"></td>
-<td width="210" align="center"><img src="Assets/Documentation/Experiment/DHT11 Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
-<td width="210" align="center"><img src="Assets/Documentation/Experiment/LDR Sensor/Device.jpg" alt="device"></td>
-<td width="210" align="center"><img src="Assets/Documentation/Experiment/LDR Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/DHT11 Sensor/Device.jpg" alt="device"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/DHT11 Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/LDR Sensor/Device.jpg" alt="device"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/LDR Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/HC-SR04 Sensor/Device.jpg" alt="device"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/HC-SR04 Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Device.jpg" alt="device"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Serial Monitor.jpg" alt="serial-monitor"></td>
 </tr>
 <tr>
-<th width="840" colspan="4">HC-SR04 Sensor</th>
+<th width="840" colspan="8">Switch (FAN)</th>
 </tr>
 <tr>
-<td width="420" colspan="2" align="center"><img src="Assets/Documentation/Experiment/HC-SR04 Sensor/Device.jpg" alt="device"></td>
-<td width="420" colspan="2" align="center"><img src="Assets/Documentation/Experiment/HC-SR04 Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
+<th width="420" colspan="4">On</th>
+<th width="420" colspan="4">Off</th>
 </tr>
 <tr>
-<th width="840" colspan="4">Switch (FAN)</th>
-</tr>
-<tr>
-<td width="420" colspan="2" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Serial Monitor.jpg" alt="serial-monitor"></td>
-<td width="420" colspan="2" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Device.jpg" alt="device"></td>
-</tr>
-<tr>
-<th width="420" colspan="2">Switch (FAN): ON</th>
-<th width="420" colspan="2">Switch (FAN): OFF</th>
-</tr>
-<tr>
-<td colspan="2" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Switch On.jpg" alt="switch-on"></td>
-<td colspan="2" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Switch Off.jpg" alt="switch-off"></td>
+<td colspan="4" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Switch On.jpg" alt="switch-on"></td>
+<td colspan="4" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Switch Off.jpg" alt="switch-off"></td>
 </tr>
 </table>
 <table>
