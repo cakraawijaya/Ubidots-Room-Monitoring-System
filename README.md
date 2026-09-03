@@ -239,7 +239,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Select ``` Thermometer ``` for room temperature.
    
-      • Please set the variables that you want to use on the widget.
+      • Please set the variable that you want to use on the widget.
    
       • Customize the style, size, and other details as needed.
    
@@ -259,7 +259,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Select ``` Gauge ``` for room humidity.
    
-      • Please set the variables that you want to use on the widget.
+      • Please set the variable that you want to use on the widget.
    
       • Customize the style, size, and other details as needed.
    
@@ -279,7 +279,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Select ``` Indicator ``` to display the LED status based on the light intensity.
    
-      • Please set the variables that you want to use on the widget.
+      • Please set the variable that you want to use on the widget.
    
       • Customize the style, size, and other details as needed.
    
@@ -299,7 +299,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Select ``` Line Chart ``` to visualize distance data.
    
-      • Please set the variables that you want to use on the widget.
+      • Please set the variable that you want to use on the widget.
    
       • Customize the style, size, and other details as needed.
    
@@ -466,7 +466,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Select ``` Switch ``` to control the Fan ON/OFF.
    
-      • Please set the variables that you want to use on the widget.
+      • Please set the variable that you want to use on the widget.
    
       • Customize the style, size, and other details as needed.
    
