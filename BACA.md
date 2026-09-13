@@ -513,7 +513,7 @@ Sistem pemantauan dan pengendalian ruangan cerdas — memantau suhu, kelembapan,
 
 <table>
 <tr>
-<th width="840" colspan="8">Perangkat</th>
+<th width="840" colspan="8">Prototipe Perangkat & Pengujian</th>
 </tr>
 <tr>
 <th width="210" colspan="2">Sensor DHT11</th>
