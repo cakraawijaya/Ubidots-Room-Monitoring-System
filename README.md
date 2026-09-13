@@ -513,7 +513,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
 
 <table>
 <tr>
-<th width="840" colspan="8">Device</th>
+<th width="840" colspan="8">Device Prototype & Testing</th>
 </tr>
 <tr>
 <th width="210" colspan="2">DHT11 Sensor</th>
