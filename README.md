@@ -539,7 +539,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Customize the style, size, and other details as needed.
    
-      • Click ``` SAVE ``` to add the HTML Canvas Widget to the dashboard.
+      • Click ``` SAVE ``` to add the Metric Widget to the dashboard.
    
       • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> after that, click ``` SAVE ```.<br><br>
 
