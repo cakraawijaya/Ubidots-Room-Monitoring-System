@@ -522,14 +522,14 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
 <th width="210" colspan="2">Fan</th>
 </tr>
 <tr>
-<td width="105" align="center"><img src="Assets/Documentation/Experiment/DHT11 Sensor/Device.jpg" alt="device"></td>
-<td width="105" align="center"><img src="Assets/Documentation/Experiment/DHT11 Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
-<td width="105" align="center"><img src="Assets/Documentation/Experiment/LDR Sensor/Device.jpg" alt="device"></td>
-<td width="105" align="center"><img src="Assets/Documentation/Experiment/LDR Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
-<td width="105" align="center"><img src="Assets/Documentation/Experiment/HC-SR04 Sensor/Device.jpg" alt="device"></td>
-<td width="105" align="center"><img src="Assets/Documentation/Experiment/HC-SR04 Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
-<td width="105" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Device.jpg" alt="device"></td>
-<td width="105" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Serial Monitor.jpg" alt="serial-monitor"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/Prototype/DHT11 Sensor/Device.jpg" alt="device"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/Testing/DHT11 Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/Prototype/LDR Sensor/Device.jpg" alt="device"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/Testing/LDR Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/Prototype/HC-SR04 Sensor/Device.jpg" alt="device"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/Testing/HC-SR04 Sensor/Serial Monitor.jpg" alt="serial-monitor"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/Prototype/Switch (FAN)/Device.jpg" alt="device"></td>
+<td width="105" align="center"><img src="Assets/Documentation/Experiment/Testing/Switch (FAN)/Serial Monitor.jpg" alt="serial-monitor"></td>
 </tr>
 <tr>
 <th width="840" colspan="8">Switch (FAN)</th>
@@ -539,8 +539,20 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
 <th width="420" colspan="4">Off</th>
 </tr>
 <tr>
-<td colspan="4" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Switch On.jpg" alt="switch-on"></td>
-<td colspan="4" align="center"><img src="Assets/Documentation/Experiment/Switch (FAN)/Switch Off.jpg" alt="switch-off"></td>
+<td colspan="4" align="center"><img src="Assets/Documentation/Experiment/Testing/Switch (FAN)/Switch On.jpg" alt="switch-on"></td>
+<td colspan="4" align="center"><img src="Assets/Documentation/Experiment/Testing/Switch (FAN)/Switch Off.jpg" alt="switch-off"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="840" colspan="5">Enclosed Device</th>
+</tr>
+<tr>
+<td width="168" align="center"><img src="Assets/Documentation/Experiment/Cover/Device-1.jpg" alt="device-1"></td>
+<td width="168" align="center"><img src="Assets/Documentation/Experiment/Cover/Device-2.jpg" alt="device-2"></td>
+<td width="168" align="center"><img src="Assets/Documentation/Experiment/Cover/Device-3.jpg" alt="device-3"></td>
+<td width="168" align="center"><img src="Assets/Documentation/Experiment/Cover/Device-4.jpg" alt="device-4"></td>
+<td width="168" align="center"><img src="Assets/Documentation/Experiment/Cover/Device-5.jpg" alt="device-5"></td>
 </tr>
 </table>
 <table>
