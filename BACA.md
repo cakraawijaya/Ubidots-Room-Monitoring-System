@@ -277,7 +277,7 @@ Sistem pemantauan dan pengendalian ruangan cerdas — memantau suhu, kelembapan,
    
       • Klik ``` + Add new widget ```.
    
-      • Pilih ``` Indicator ``` untuk menampilkan status LED berdasarkan intensitas cahaya.
+      • Pilih ``` Indicator ``` untuk menampilkan status LED berdasarkan intensitas cahaya dan untuk deteksi orang.
    
       • Silakan atur variabel yang ingin Anda gunakan pada widget tersebut.
    
@@ -456,7 +456,96 @@ Sistem pemantauan dan pengendalian ruangan cerdas — memantau suhu, kelembapan,
 
    </td></tr></table><br>
 
-9. Membuat widget Switch :
+9. Membuat widget Metric (Alternatif jika langkah ke-8 tidak dapat dilakukan) :
+
+   <table><tr><td width="810">
+
+      • Pastikan anda berada di menu ``` Dashboards ```.
+   
+      • Klik ``` + Add new widget ```.
+   
+      • Pilih ``` Metric ``` untuk membuat visualisasi khusus yang menampilkan intensitas cahaya.
+   
+      • Silakan atur variabel yang ingin Anda gunakan pada widget tersebut.
+   
+      • Terapkan opsi : ``` Use the HTML editor ```.
+   
+      • Di bagian ``` Open editor ```, silakan atur sebagai berikut :<br><br>
+
+      <table>
+      <tr>
+         <th align="left">Kode HTML</th>
+      <tr>
+      <tr><td width="810">
+               
+      ```html
+      
+      <div class="ldr-widget">
+          <div class="ldr-circle">
+              <span id="ldr-value">{{value}}</span>
+          </div>
+      </div>
+      
+      <style>
+          html,
+          body {
+              width: 100%;
+              height: 100%;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+          }
+      
+          .ldr-widget {
+              width: 100%;
+              height: 100%;
+              min-height: 150px;
+              background: #ffffff;
+              position: relative;
+              font-family: Arial, sans-serif;
+          }
+      
+          .ldr-circle {
+              position: absolute;
+      
+              width: 140px;
+              height: 140px;
+      
+              top: 50%;
+              left: 50%;
+      
+              transform: translate(-50%, -50%);
+      
+              border-radius: 50%;
+              background-color: #ff9800;
+      
+              display: flex;
+              align-items: center;
+              justify-content: center;
+      
+              color: #ffffff;
+          }
+      
+          .ldr-circle span {
+              font-size: 25px;
+              font-weight: bold;
+              line-height: 1;
+          }
+      </style>
+         
+      ```
+      </td></tr>
+      </table><br>
+   
+      • Sesuaikan gaya, ukuran, dan detail lainnya sesuai kebutuhan.
+   
+      • Klik ``` SAVE ``` untuk menambahkan Widget Metric ke dasbor.
+   
+      • Jika ingin mengubah isi widget, silakan klik simbol ``` pensil ``` -> setelah itu, klik ``` SAVE ```.<br><br>
+
+   </td></tr></table><br>
+
+10. Membuat widget Switch :
 
    <table><tr><td width="810">
    
@@ -476,7 +565,7 @@ Sistem pemantauan dan pengendalian ruangan cerdas — memantau suhu, kelembapan,
 
    </td></tr></table><br>
 
-10. Konfigurasi firmware : 
+11. Konfigurasi firmware : 
 
     <table><tr><td width="810">
    
