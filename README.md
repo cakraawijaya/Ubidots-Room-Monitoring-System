@@ -277,7 +277,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • Click ``` + Add new widget ```.
    
-      • Select ``` Indicator ``` to display the LED status based on the light intensity.
+      • Select ``` Indicator ``` to display the LED status based on the light intensity and to detect people.
    
       • Please set the variable that you want to use on the widget.
    
@@ -456,9 +456,98 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
 
    </td></tr></table><br>
 
-9. Creating Switch widget :
+9. Creating Metric widget (Alternative if step 8 cannot be performed) :
 
    <table><tr><td width="810">
+
+      • Make sure you are in the ``` Dashboards ``` menu.
+   
+      • Click ``` + Add new widget ```.
+   
+      • Select ``` Metric ``` to create a custom visualization that displays the light intensity.
+   
+      • Please set the variable that you want to use on the widget.
+   
+      • Apply the option : ``` Use the HTML editor ```.
+   
+      • In the ``` Open editor ``` section, please set it up as follows :<br><br>
+
+      <table>
+      <tr>
+         <th align="left">HTML Code</th>
+      <tr>
+      <tr><td width="810">
+               
+      ```html
+      
+      <div class="ldr-widget">
+          <div class="ldr-circle">
+              <span id="ldr-value">{{value}}</span>
+          </div>
+      </div>
+      
+      <style>
+          html,
+          body {
+              width: 100%;
+              height: 100%;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+          }
+      
+          .ldr-widget {
+              width: 100%;
+              height: 100%;
+              min-height: 150px;
+              background: #ffffff;
+              position: relative;
+              font-family: Arial, sans-serif;
+          }
+      
+          .ldr-circle {
+              position: absolute;
+      
+              width: 140px;
+              height: 140px;
+      
+              top: 50%;
+              left: 50%;
+      
+              transform: translate(-50%, -50%);
+      
+              border-radius: 50%;
+              background-color: #ff9800;
+      
+              display: flex;
+              align-items: center;
+              justify-content: center;
+      
+              color: #ffffff;
+          }
+      
+          .ldr-circle span {
+              font-size: 25px;
+              font-weight: bold;
+              line-height: 1;
+          }
+      </style>
+         
+      ```
+      </td></tr>
+      </table><br>
+   
+      • Customize the style, size, and other details as needed.
+   
+      • Click ``` SAVE ``` to add the HTML Canvas Widget to the dashboard.
+   
+      • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> after that, click ``` SAVE ```.<br><br>
+
+   </td></tr></table><br>
+
+10. Creating Switch widget :
+
+    <table><tr><td width="810">
    
       • Make sure you are in the ``` Dashboards ``` menu.
    
@@ -474,9 +563,9 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
    
       • If you want to change the content of the widget, please click the ``` pencil ``` symbol -> after that, click ``` SAVE ```.
 
-   </td></tr></table><br>
+    </td></tr></table><br>
 
-10. Firmware configuration : 
+11. Firmware configuration : 
 
     <table><tr><td width="810">
    
