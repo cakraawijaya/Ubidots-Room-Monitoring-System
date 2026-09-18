@@ -547,7 +547,7 @@ Sistem pemantauan dan pengendalian ruangan cerdas — memantau suhu, kelembapan,
 
 10. Membuat widget Switch :
 
-   <table><tr><td width="810">
+    <table><tr><td width="810">
    
       • Pastikan anda berada di menu ``` Dashboards ```.
    
@@ -563,7 +563,7 @@ Sistem pemantauan dan pengendalian ruangan cerdas — memantau suhu, kelembapan,
    
       • Jika ingin mengubah isi widget, silakan klik simbol ``` pensil ``` -> setelah itu, klik ``` SAVE ```.
 
-   </td></tr></table><br>
+    </td></tr></table><br>
 
 11. Konfigurasi firmware : 
 
