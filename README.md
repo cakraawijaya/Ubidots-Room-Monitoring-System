@@ -22,7 +22,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
 | Arduino Library | • WiFi (default)<br>• HTTPClient (default)<br>• DHT sensor library by Adafruit (Version: 1.4.6) |
 | Actuators | • Fan DC 5V (x1)<br>• Electromechanical relay 2-channel (x1)<br>• LED (x1) |
 | Sensor | • DHT11: Air Temperature & Humidity (x1)<br>• LDR Sensor Module (x1)<br>• HC-SR04: Ultrasonic Sensor (x1) |
-| Other Components | • Micro USB cable - USB type A (x1)<br>• ESP32 expansion board (x1)<br>• Breadboard (x1)<br>• Adaptor DC 9V 1A (x1)<br>• Resistor 220 ohm (x1)<br>• Jumper cable (1 set) |
+| Other Components | • Micro USB cable - USB type A (x1)<br>• ESP32 expansion board (x1)<br>• Breadboard (x1)<br>• Adaptor DC 9V 1A (x1)<br>• Resistor 220 ohm (x1)<br>• Jumper cable (1 set)<br>• PCB Dot Matrix Single Layer (x1)<br>• Terminal PCB block screw (x4)<br>• Project Box X5 (x1)<br>• Screws (x4)<br>• Bolts M3 x 12 (x14)<br>• Bolts M3 x 20 (x2)<br>• Bolts M3 x 25 (x2)<br>• Bolts M4 x 10 (x2)<br>• Nuts M3 (x18)<br>• Nuts M4 (x2) |
 
 <br><br>
 
