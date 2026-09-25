@@ -22,7 +22,7 @@ Sistem pemantauan dan pengendalian ruangan cerdas — memantau suhu, kelembapan,
 | Pustaka Arduino | • WiFi (bawaan)<br>• HTTPClient (bawaan)<br>• DHT sensor library oleh Adafruit (Versi: 1.4.6) |
 | Aktuator | • Kipas DC 5V (x1)<br>• Relay elektromekanis 2-channel (x1)<br>• LED (x1) |
 | Sensor | • DHT11: Suhu & Kelembapan Udara (x1)<br>• Modul Sensor LDR (x1)<br>• HC-SR04: Sensor Ultrasonik (x1) |
-| Komponen Lainnya| • Kabel USB Mikro - USB tipe A (x1)<br>• Papan ekspansi ESP32 (x1)<br>• Breadboard (x1)<br>• Adaptor DC 9V 1A (x1)<br>• Resistor 220 ohm (x1)<br>• Kabel jumper (1 set)<br>• PCB Dot Matrix Single Layer (x1)<br>• Terminal PCB block screw (x4)<br>• Box Proyek X5 (x1)<br>• Sekrup (x4)<br>• Baut M3 x 12 (x14)<br>• Baut M3 x 20 (x2)<br>• Baut M3 x 25 (x2)<br>• Baut M4 x 10 (x2)<br>• Mur M3 (x18)<br>• Mur M4 (x2) |
+| Komponen Lainnya| • Kabel USB Mikro - USB tipe A (x1)<br>• Papan ekspansi ESP32 (x1)<br>• Breadboard (x1)<br>• Adaptor DC 9V 1A (x1)<br>• Resistor 220 ohm (x1)<br>• Kabel jumper (1 set)<br>• PCB Dot Matrix Single Layer (x1)<br>• Terminal PCB block screw (x4)<br>• Box Proyek X5 (x1)<br>• Sekrup (x4)<br>• Baut M3 x 12 (x14)<br>• Baut M3 x 20 (x2)<br>• Baut M3 x 25 (x2)<br>• Baut M4 x 10 (x2)<br>• Mur M3 (x20)<br>• Mur M4 (x2) |
 
 <br><br>
 
