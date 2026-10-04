@@ -654,7 +654,7 @@ Smart room monitoring and control system — monitors temperature, humidity, lig
 </table>
 
 <br>
-<strong>More information:</strong> <a href="https://github.com/cakraawijaya/Ubidots-Room-Monitoring-System/blob/master/Assets/Documentation/Report/Portofolio%20Pelatihan%20Sertifikasi%20BNSP%20IIoT%20-%20Devan%20Cakra%20Mudra%20Wijaya-14-35.pdf"><u>Click Here</u></a>
+<strong>More information:</strong> <a href="https://github.com/cakraawijaya/Ubidots-Room-Monitoring-System/blob/master/Assets/Documentation/Report/Portofolio%20Pelatihan%20Sertifikasi%20BNSP%20IIoT%20-%20Devan%20Cakra%20Mudra%20Wijaya%20-%20Project%2015.pdf"><u>Click Here</u></a>
 
 <br><br><br>
 

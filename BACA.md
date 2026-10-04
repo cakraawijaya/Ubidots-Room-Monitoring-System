@@ -654,7 +654,7 @@ Sistem pemantauan dan pengendalian ruangan cerdas — memantau suhu, kelembapan,
 </table>
 
 <br>
-<strong>Informasi lebih lanjut:</strong> <a href="https://github.com/cakraawijaya/Ubidots-Room-Monitoring-System/blob/master/Assets/Documentation/Report/Portofolio%20Pelatihan%20Sertifikasi%20BNSP%20IIoT%20-%20Devan%20Cakra%20Mudra%20Wijaya-14-35.pdf"><u>Klik Disini</u></a>
+<strong>Informasi lebih lanjut:</strong> <a href="https://github.com/cakraawijaya/Ubidots-Room-Monitoring-System/blob/master/Assets/Documentation/Report/Portofolio%20Pelatihan%20Sertifikasi%20BNSP%20IIoT%20-%20Devan%20Cakra%20Mudra%20Wijaya%20-%20Project%2015.pdf"><u>Klik Disini</u></a>
 
 <br><br><br>
 
